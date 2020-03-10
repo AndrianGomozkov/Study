@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.HomeController">
+    <children>
+        <AnchorPane fx:id="loginSingUpButton" layoutY="114.0" prefHeight="286.0" prefWidth="700.0"
+                    style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="22.0" prefHeight="63.0" prefWidth="653.0" text="Изучение JavaFx и Scene Builder"
+                       textFill="#8a8a8a">
+                    <font>
+                        <Font name="Book Antiqua" size="37.0"/>
+                    </font>
+                </Label>
+                <ImageView fx:id="image_Button" fitHeight="129.0" fitWidth="131.0" layoutX="286.0" layoutY="79.0"
+                           pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../assets/iconfinder_latop_531896.png"/>
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="259.0" layoutY="14.0" text="JavaFx" textFill="#fafafa">
+            <font>
+                <Font name="Jokerman" size="58.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
